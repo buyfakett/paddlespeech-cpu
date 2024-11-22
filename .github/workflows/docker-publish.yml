@@ -11,7 +11,7 @@ name: Docker Publish
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   IMAGE_NAME: "muen/paddlespeech"
